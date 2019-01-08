@@ -11,10 +11,18 @@
 
 
 <body>
-<header class="header"></header>
+<header class="header">
+	<?php
+	include(header.php)
+	?>
+</header>
 <!-- /.header -->
 
-<main class="content"></main>
+<main class="content">
+	<?php
+	include(content.php)
+	?>
+</main>
 <!-- /.content -->
 
 <footer class="footer"></footer>
